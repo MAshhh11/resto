@@ -1,0 +1,45 @@
+body>section:nth-of-type(1) {
+	display: flex;
+	align-items: center;
+	align-content: center;
+	background-color: #fff7e3;
+
+	&>div {
+		width: 50%;
+		text-align: center;
+		p {
+			padding: 3%;
+			margin-left: 20%;
+			margin-right: 20%;
+			@include font(POP_T, 15px, center);
+		}
+		h2 {
+			@include font(ALLU,50px, center);
+			color: orange;
+		}
+		h3 {
+			@include font(POP_R, 40px, center);
+		}
+
+	}
+	&>div:first-child {
+
+		article {
+			border: 2px dashed orange;
+			width: 80%;
+			margin: auto;
+			padding: 40px;
+		}
+	}
+}
+
+
+body>section:nth-of-type(1) div:nth-of-type(1) {
+		img {
+			border-radius: 50%;
+		}
+}
+
+body>section:nth-of-type(1) div:nth-of-type(1) p:nth-of-type(2) {
+		@include font(ROB_R, 20px, center);
+}

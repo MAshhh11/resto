@@ -1,0 +1,10 @@
+// %title_h2 {
+// 	margin-bottom: 25px;
+// 	color: $red;
+// 	text-transform: uppercase;
+// 	@include font(OS_B, 25px, center);
+// 	&::first-letter {
+// 		color: black;
+// 		font-size: 35px;
+// 	}
+// }

@@ -1,0 +1,7 @@
+@import "_mixins/font-face";
+
+@include font-face("ALLU", "../../fonts/Allura-Regular",400, normal);
+@include font-face("ROB_R", "../../fonts/Roboto-Regular",300, normal);
+@include font-face("POP_R", "../../fonts/Poppins-Regular",300, normal);
+@include font-face("POP_T", "../../fonts/Poppins-Thin",300, normal);
+@include font-face("POP_B", "../../fonts/Poppins-Bold",300, normal);

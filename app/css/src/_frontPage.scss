@@ -1,0 +1,28 @@
+// h1 {
+// 	margin-top: 100px;
+// 	@include font(OS_B, 35px, center);
+// 	text-transform: uppercase;
+// 	color: $red;
+// }
+// .intro {
+// 	h2 {
+// 		@extend %title_h2;
+// 	}
+// 	.extend {
+// 		color: $red;
+// 	}
+// 	&>* {
+// 		margin: 20px 0;
+// 		&:last-child {
+// 			@extend .extend; // héritage de .intro .extend
+// 		}
+// 	}
+// 	div.div_intro:nth-of-type(2n) {
+// 		color: $gray;
+// 	}
+// }
+// .content {
+// 	h2 {
+// 		@extend %title_h2;
+// 	}
+// }

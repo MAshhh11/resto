@@ -1,0 +1,61 @@
+body>section:nth-of-type(2) div:nth-of-type(1) {
+		background-color: #222222;
+		color : white;
+		padding: 3%;
+
+}
+body>section:nth-of-type(2) div:nth-of-type(1) div:nth-of-type(1){
+		text-align: center;
+		h2 {
+			@include font(ALLU,50px, center);
+			color: orange;
+		}
+}
+
+body>section:nth-of-type(2) div:nth-of-type(1) ul:nth-of-type(1) {
+    	display: flex;
+    	justify-content: center;
+    	list-style-type: none;
+    	li {
+    		padding: 10px;
+    		text-decoration: underline;
+    		@include font(ROB_R, 20px, center);
+    	}
+}
+
+body>section:nth-of-type(2) article:nth-of-type(1) {
+        background-image: url(../../../img/bg-menu-01.jpg);
+        background-size: cover;
+        background-color: black;
+        width: 100%;
+       
+}
+
+body>section:nth-of-type(2) article:nth-of-type(1) div:nth-of-type(1) {
+        background-color: white;
+        border-top: 5px solid orange;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: space-around;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        color: black; 
+        width: 700px;
+        height: 390px;
+        img {
+            height: 13%;
+            padding: 5px;
+        }
+        &>div {
+            border-top: none;
+        }
+}
+
+body>section:nth-of-type(2) article:nth-of-type(1) div:nth-of-type(1) div:nth-of-type(1) {
+        p {
+            @include font(POP_T, 13px, center);
+            margin: 5px;
+        }
+
+}
